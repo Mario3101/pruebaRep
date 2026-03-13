@@ -35,6 +35,7 @@ public class Date {
     System.out.println("Method added by the owner");
   }
 
+
   public int getDay() {
     return day;
   }
@@ -65,10 +66,10 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
   }
 
   /**
